@@ -14,7 +14,6 @@ const initialState = [
     id: 0
   }
 ]
-
 export default function todos(state = initialState, action) {
   switch (action.type) {
     case ADD_TODO:
